@@ -1,4 +1,5 @@
 # weather-station-using-Raspberry-Pi-Pico-W
+The Raspberry Pi Pico W is seamlessly linked to the BMP180 sensor following the schematic provided below. The sensor's VCC (Voltage) and GND (Ground) pins harmoniously interface with the Pico W's pin 36 and pin 23, respectively. Moreover, the sensor's SDA (Serial Data) and SCL (Serial Clock) pins securely connect with the Pico W's pin 1 and pin 2. To facilitate these connections, a breadboard and a handful of jumper cables are employed, ensuring a tidy and efficient setup.
 Welcome to the Raspberry Pico Weather Station project! This repository contains code for creating a weather station using a Raspberry Pico microcontroller. The weather station collects data from a BMP180 sensor and presents it through a dynamic web page.
 
 Features
